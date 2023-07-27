@@ -4,6 +4,12 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Main {
+    public static void main(String[] args) {
+        System.out.println("Initial data:");
+        getOutput( getShowList((getData())));
+        System.out.println("Updated data:");
+        getOutput( getShowList(getReplace(getData())));
+    }
 
     public static LinkedHashMap<String, String> getData() {
         LinkedHashMap<String, String> list = new LinkedHashMap<>();
