@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static void main(String[] args) {
+        getOutput(getSearch(getScan(),getData()));
+    }
+
     public static HashMap<String, Integer> getData() {
         HashMap<String, Integer> data = new HashMap<>();
         data.put("potato", 55);
