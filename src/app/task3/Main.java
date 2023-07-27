@@ -24,3 +24,10 @@ public class Main {
         }
         return result.toString();
 }
+
+    public static LinkedHashMap<String,String> getReplace(LinkedHashMap<String,String> data){
+        data.replace("Tom","tomasdev@glob.net");
+        return data;
+}
+
+}
