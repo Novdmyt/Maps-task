@@ -32,7 +32,7 @@ public class Main {
             int name = map.get(code);
             return code + " found in quantity " + name + " kg";
         } else
-            return code + "product not found!";
+            return code + " product not found!";
     }
     public static void getOutput(String output){
         System.out.println(output);
