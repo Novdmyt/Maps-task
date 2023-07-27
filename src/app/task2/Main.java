@@ -1,6 +1,7 @@
 package app.task2;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Main {
 
@@ -14,4 +15,11 @@ public class Main {
         data.put("onion", 19);
         return data;
     }
+
+    public static String getScan() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter product name ");
+        return scanner.nextLine().trim();
+    }
+
 }
