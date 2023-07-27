@@ -22,4 +22,12 @@ public class Main {
         return scanner.nextLine().trim();
     }
 
+    public static String getSearch(String code, HashMap<String, Integer> map){
+        boolean hasContain = map.containsKey(code);
+        if (hasContain) {
+            int name = map.get(code);
+            return code + " found in quantity " + name + " kg";
+        } else
+            return code + "product not found!";
+    }
 }
