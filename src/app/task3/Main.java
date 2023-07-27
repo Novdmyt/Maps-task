@@ -29,5 +29,8 @@ public class Main {
         data.replace("Tom","tomasdev@glob.net");
         return data;
 }
+    public static void getOutput(String output){
+        System.out.println(output);
+    }
 
 }
