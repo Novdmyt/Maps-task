@@ -31,5 +31,8 @@ public class Main {
         data.replace("banana","25","14");
         return data;
     }
+    public static void getOutput(String output){
+        System.out.println(output);
+    }
 
 }
