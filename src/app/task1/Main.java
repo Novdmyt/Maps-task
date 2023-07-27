@@ -16,4 +16,14 @@ public class Main {
         return data;
     }
 
+    public static String getShowList(Map<String ,String> list) {
+        StringBuilder result = new StringBuilder();
+        int count = 0;
+        for (Map.Entry<String, String> name : list.entrySet()) {
+            count++;
+            result.append(count).append(") ").append(name.getKey()).append(", ")
+                    .append(name.getValue()).append(" kg").append("\n");
+        }
+        return result.toString();
+
 }
