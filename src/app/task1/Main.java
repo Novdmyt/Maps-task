@@ -25,5 +25,11 @@ public class Main {
                     .append(name.getValue()).append(" kg").append("\n");
         }
         return result.toString();
+}
+
+    public static Map<String ,String> getReplace(Map<String ,String> data){
+        data.replace("banana","25","14");
+        return data;
+    }
 
 }
