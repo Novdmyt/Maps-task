@@ -33,6 +33,7 @@ public class Main {
 
     public static Map<String ,String> getReplace(Map<String ,String> data){
         data.replace("banana","25","14");
+        data.put("plum","15");
         return data;
     }
     public static void getOutput(String output){
