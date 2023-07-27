@@ -4,8 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-
-
+    public static void main(String[] args) {
+        System.out.println("Initial data:");
+        getOutput( getShowList((getData())));
+        System.out.println("Updated data:");
+        getOutput( getShowList(getReplace(getData())));
+    }
     public static Map<String ,String> getData(){
         Map<String, String> data = new HashMap<>();
         data.put("orange", "12");
