@@ -30,4 +30,7 @@ public class Main {
         } else
             return code + "product not found!";
     }
+    public static void getOutput(String output){
+        System.out.println(output);
+    }
 }
